@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p id="colors"></p>
+	<p id="numberOfCreatures"></p>
+	<p id="commander"></p>
+	<p id="averageManaCost"></p>
+	
+<script>
+
+	var myDecks;
+	myDecks	= {
+		"colors": "Blue / White",
+		"numberOfCreatures": 22,
+		"commander": "Brago, King Eternal",
+		"averageManaCost": 3.56
+	 },
+	 {
+	    "colors": "Red / Black",
+	    "numberOfCreatures": 39,
+	    "commander": "Rakdos, Lord of Riots",
+	    "averageManaCost": 4.52
+	 },
+	 {
+	   "colors": "Blue / Red / Green",
+	   "numberOfCreatures": 15,
+	   "commander": ["Kydele, Chosen of Kruphix", "Kraum, Ludevic&#39;s Opus"],
+	   "averageManaCost": 3.88
+	 },
+	 {
+	   "colors": "White",
+	   "numberOfCreatures": 10,
+	   "commander": "Balan, Wandering Knight",
+	   "averageManaCost": 2.74
+	 }
+var userInfo = JSON.parse(decks);
+document.getElementById("colors").innerHTML = "This deck is: " + userInfo.colors;
+userInfo.numberOfCreatures = eval("(" + userInfo.numberOfCreatures + ")");
+
+
+
+console.log(JSON.parse(decks);
+
+</script>
+
+</body>
+</html>

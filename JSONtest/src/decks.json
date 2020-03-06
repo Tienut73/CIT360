@@ -1,0 +1,26 @@
+[
+ {
+	"colors": "Blue / White",
+	"numberOfCreatures": 22,
+	"commander": "Brago, King Eternal",
+	"averageManaCost": 3.56
+ },
+ {
+    "colors": "Red / Black",
+    "numberOfCreatures": 39,
+    "commander": "Rakdos, Lord of Riots",
+    "averageManaCost": 4.52
+ },
+ {
+   "colors": "Blue / Red / Green",
+   "numberOfCreatures": 15,
+   "commander": ["Kydele, Chosen of Kruphix", "Kraum, Ludevic's Opus"],
+   "averageManaCost": 3.88
+ },
+ {
+   "colors": "White",
+   "numberOfCreatures": 10,
+   "commander": "Balan, Wandering Knight",
+   "averageManaCost": 2.74
+ }
+]
