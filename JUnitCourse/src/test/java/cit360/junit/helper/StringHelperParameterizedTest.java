@@ -35,7 +35,6 @@ public class StringHelperParameterizedTest {
 		return Arrays.asList(expectedOutputs);
 	}
 	
-
 	@Test
 	public void testTruncateAInFirst2Positions() {
 		assertEquals(expectedOutput,
