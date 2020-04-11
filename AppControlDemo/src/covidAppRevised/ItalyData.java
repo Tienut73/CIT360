@@ -1,7 +1,11 @@
-package covidApp;
+/* package covidAppRevised;
+
+import java.util.HashMap;
+
+import covidAppRevised.CovidHandler;
 
 //Each command has a contract interface.
-public class ItalyData {
+public class ItalyData implements CovidHandler {
 
 	// Each command has a method inside to handle it.
 	public void show() {
@@ -12,5 +16,9 @@ public class ItalyData {
 				+ " COVID-19 Deaths: 12,428");
 	}
 
-	
+	@Override
+	public Object handlerIt(HashMap<String, Object> data) {
+		return null;
+	}
 }
+*/

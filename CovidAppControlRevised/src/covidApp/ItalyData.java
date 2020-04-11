@@ -11,6 +11,4 @@ public class ItalyData {
 				+ " COVID-19 Cases: 105,792"
 				+ " COVID-19 Deaths: 12,428");
 	}
-
-	
 }
